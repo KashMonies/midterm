@@ -1,31 +1,41 @@
-/* color blocking of content areas */
 html {
 	background-color:white;
 }
 
 .intro {
-	background-color:orange;
+	background-color:grey;
 }
 
 .intro header, 
 .intro .summary, 
 .intro .preamble {
-	border: 5px dashed blue;
+	border: 5px solid black;
 }
-
-.supporting {
+	
+	.supporting {
 	background-color:yellow;
 }
 
 .supporting div, 
 .supporting footer {
-	border: 5px dashed blue;
+	border: 5px dashed black;
 }
 
 .sidebar {
-	background-color:green;
+	background-color:purple;
 }
 
 .sidebar .wrapper div {
-	border: 5px dashed blue;
+	border: 5px dashed black;
 }
+
+.sidebar {
+		width:35%;
+		margin-left:65%;
+	}
+	
+	.intro,
+	.supporting {
+		width:60%;
+		float:left;
+	}

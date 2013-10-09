@@ -1,0 +1,72 @@
+/* color blocking of content areas */
+html {
+	background-color:black;
+}
+
+.intro {
+	background-color:orange;
+
+}
+
+.intro header, 
+.intro .summary, 
+.intro .preamble {
+	border: 5px dashed blue;
+}
+
+.supporting {
+	background-color:yellow;
+}
+
+.supporting div, 
+.supporting footer {
+	border: 5px dashed blue;
+}
+
+.sidebar {
+	background-color:green;
+}
+
+.sidebar .wrapper div {
+	border: 5px dashed blue;
+	float:right;
+}
+}
+
+.sidebar {
+   width:35%;
+   margin-left:65%;
+  
+	}
+
+@media all and (min-width:769px) {
+	/* column sizes */
+	.page-wrapper {
+		padding:30px
+	}
+
+	.intro,
+	.supporting {
+		width:60%;
+		float:left;
+	}
+
+	
+.sidebar {
+		width:35%;
+		margin-left:65%;
+	}
+@media all and (max-width:768px) {
+
+
+}
+
+@media all and (min-width:1500px) {
+
+	.sidebar {
+		position:absolute;
+		top:0;
+		left:0;
+		margin:0;
+		width:400px;
+		}
