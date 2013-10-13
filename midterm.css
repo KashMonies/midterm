@@ -26,7 +26,8 @@ html {
 	width:1700px;
 	height:1000px;
 	overflow:auto;
-	overflow-x:hidden;
+	overflow-x:auto;
+	text-wrap:surpress
 	}
 
 .supporting p{
@@ -34,8 +35,12 @@ html {
 	position:relative;
 	top:50%;
 	bottom:50%;
-	text-wrap:surpress;
+	left:15%;
+	color:purple;
+	font-family:garamond;
+	max-width:480px;
 	
+	font-size:15px;
 	}
 
 .supporting div, 
