@@ -4,12 +4,16 @@ html {
 	
 }
 
+.page-wrapper{
+	/*background-color:black*/
+	}
+
 .intro {
-	background-image:url("earth.png");
+	background-image:url("b1.png");
 	background-repeat:no-repeat;
 	text-align:center;
-	font-family:Garamond 30px;
-	background-position:50% 50%;
+	height:1000px;
+	margin:5%;
 	
 
 }
@@ -18,20 +22,30 @@ html {
 .intro .summary, 
 .intro .preamble {
 	
-	/*border: 5px dashed blue;*/
-}
+    position:relative;
+	top:30%;
+	left:10%;
+	color:purple;
+	font-family:garamond;
+	max-width:480px;
+	max-height:480px;
+	font-size:30px;
+     overflow-x:scroll;
+	text-wrap:clip;
+	}
 
-.supporting {
+.supporting
+.explanation{
 	
 	width:1700px;
 	height:1000px;
-	overflow:auto;
-	overflow-x:auto;
-	text-wrap:surpress
+	background-image:url("b0.png");
+		
 	}
 
-.supporting p{
 
+.explanation p,
+.explanation h3{
 	position:relative;
 	top:50%;
 	bottom:50%;
@@ -39,16 +53,19 @@ html {
 	color:purple;
 	font-family:garamond;
 	max-width:480px;
-	
-	font-size:15px;
+	font-size:20px;
+
+
 	}
 
-.supporting div, 
-.supporting footer {
-	width:1700px;
+.supporting
+.intro 
+ {
+	overflow:auto;
+	overflow-x:auto;
+ 	width:1700px;
 	height:1000px;
-background-image:url("bailar.png");
-text-align:center;
+	text-align:center;
 }
 
 .sidebar {
