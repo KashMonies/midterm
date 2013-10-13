@@ -1,44 +1,75 @@
+@import url("rest.css");
+
 html {
-	background-color:black;
-	color:white;
+	
 }
 
 .intro {
-	background-color:grey;
-	background-image:url('Earth1.jpg');
+	background-image:url("earth.png");
+	background-repeat:no-repeat;
+	text-align:center;
+	font-family:Garamond 30px;
+	background-position:50% 50%;
 	
+
 }
 
 .intro header, 
 .intro .summary, 
 .intro .preamble {
-	border: 5px stripped black;
-    }
 	
-	.supporting {
-	/*background-color:yellow;*/
+	/*border: 5px dashed blue;*/
 }
+
+.supporting {
+	
+	width:1700px;
+	height:1000px;
+	overflow:auto;
+	overflow-x:hidden;
+	}
+
+.supporting p{
+
+	position:relative;
+	top:50%;
+	bottom:50%;
+	text-wrap:surpress;
+	
+	}
 
 .supporting div, 
 .supporting footer {
-	/*border: 5px dashed black;*/
+	width:1700px;
+	height:1000px;
+background-image:url("bailar.png");
+text-align:center;
 }
 
 .sidebar {
-	/*background-color:purple;*/
+	/*background-color:green;*/
 }
 
 .sidebar .wrapper div {
-	/*border: 5px dashed black;*/
+	/*border: 5px dashed blue;*/
+	
+	
 }
 
-.sidebar {
-		width:35%;
-		margin-left:65%;
-	}
+  
+  .page-wrapper{
+  
+  	padding:30px
+  	}
 	
 	.intro,
 	.supporting {
-		width:60%;
-		float:left;
+		
 	}
+
+	
+.sidebar {
+		width:35%;
+		;
+	}
+
