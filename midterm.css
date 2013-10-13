@@ -1,32 +1,35 @@
 html {
-	background-color:white;
+	background-color:black;
+	color:white;
 }
 
 .intro {
 	background-color:grey;
+	background-image:url('Earth1.jpg');
+	
 }
 
 .intro header, 
 .intro .summary, 
 .intro .preamble {
-	border: 5px solid black;
-}
+	border: 5px stripped black;
+    }
 	
 	.supporting {
-	background-color:yellow;
+	/*background-color:yellow;*/
 }
 
 .supporting div, 
 .supporting footer {
-	border: 5px dashed black;
+	/*border: 5px dashed black;*/
 }
 
 .sidebar {
-	background-color:purple;
+	/*background-color:purple;*/
 }
 
 .sidebar .wrapper div {
-	border: 5px dashed black;
+	/*border: 5px dashed black;*/
 }
 
 .sidebar {
