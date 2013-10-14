@@ -1,7 +1,7 @@
 @import url('r.css');
 
 .page-wrapper{
-	
+	background-image:url("test.jpg");
 	}
 
 .intro {
@@ -9,8 +9,8 @@
 	background-repeat:no-repeat;
 	background-image:url('b1.png');
 	text-align:center;
-	height:1000px;
-	width:1700px;
+	height:750px;
+	width:1000px;
 	margin-left:5%;
 	
 
@@ -30,8 +30,8 @@
 .supporting
 .explanation{
 	
-	width:1700px;
-	height:1000px;
+	width:1000px;
+	height:750px;
 	background-image:url("b0.png");
 	background-repeat:no-repeat;
 	margin:5%;	
@@ -54,8 +54,8 @@
 
 .participation
 	{
-	width:1700px;
-	height:1000px;
+	width:1000px;
+	height:750px;
 	background-image:url("b2.png");
 	margin:5%;
 	background-repeat:no-repeat;
@@ -79,8 +79,8 @@
 
 .benefits
 {
-	width:1700px;
-	height:1000px;
+	width:1000px;
+	height:750px;
 	background-image:url("b4.png");
 	margin:5%;
 	background-repeat:no-repeat;
@@ -117,6 +117,10 @@
 	font-size:25px;
 	overflow:auto;
 }
+
+{
+@media all and (min-width:1200px)}
+{@media all and (max-width:1200px0}
 
 
 .sidebar {
