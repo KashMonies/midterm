@@ -1,8 +1,4 @@
-@import url("rest.css");
 
-html {
-	
-}
 
 .page-wrapper{
 	/*background-color:black*/
@@ -13,26 +9,28 @@ html {
 	background-repeat:no-repeat;
 	text-align:center;
 	height:1000px;
-	margin:5%;
+	width:1700px;
+	margin-left:5%;
 	
 
 }
 
-.intro header, 
-.intro .summary, 
-.intro .preamble {
-	
-    position:relative;
-	top:30%;
-	left:10%;
+.intro {
+	color:purple;
+	background-repeat:no-repeat;
+	}
+
+.intro p,
+.intro h1,
+.intro h2,
+.intro h3{
+	top:-80%;
 	color:purple;
 	font-family:garamond;
 	max-width:480px;
-	max-height:480px;
-	font-size:30px;
-     overflow-x:scroll;
-	text-wrap:clip;
-	}
+	font-size:20px;
+	
+}
 
 .supporting
 .explanation{
@@ -40,7 +38,8 @@ html {
 	width:1700px;
 	height:1000px;
 	background-image:url("b0.png");
-		
+	background-repeat:no-repeat;
+	margin:5%;	
 	}
 
 
@@ -51,22 +50,62 @@ html {
 	bottom:50%;
 	left:15%;
 	color:purple;
-	font-family:garamond;
+	font-family:Times;
 	max-width:480px;
 	font-size:20px;
+	}
+	
 
 
+.participation
+	{
+	width:1700px;
+	height:1000px;
+	background-image:url("b2.png");
+	margin:5%;
+	background-repeat:no-repeat;
 	}
 
-.supporting
-.intro 
- {
-	overflow:auto;
-	overflow-x:auto;
- 	width:1700px;
-	height:1000px;
+.participation p,
+.participation h1{
+	
+	position:relative;
+	left:43%;
+	top:30%;
+	color:purple;
+	font-family:Times;
+	max-width:480px;
+	font-size:20px;
 	text-align:center;
+	}
+
+.requirements,
+.benefits
+{
+	width:1700px;
+	height:1000px;
+	background-image:url("b4.png");
+	margin:5%;
+	background-repeat:no-repeat;
+	}
+
+.requirements p,
+.requirements h1,
+.benefits p,
+.benefits p
+
+{   position:relative;
+	top:50%;
+	bottom:50%;
+	left:15%;
+	color:purple;
+	font-family:Times;
+	max-width:480px;
+	font-size:20px;
+	overflow:auto;
+	overflow-x:visible;
 }
+
 
 .sidebar {
 	/*background-color:green;*/
