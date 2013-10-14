@@ -1,11 +1,11 @@
+@import url('r.css')
 
-
-.page-wrapper{
-	/*background-color:black*/
+/*.page-wrapper{
+	
 	}
 
 .intro {
-	background-image:url("b1.png");
+	
 	background-repeat:no-repeat;
 	text-align:center;
 	height:1000px;
@@ -14,23 +14,25 @@
 	
 
 }
+*/.intro p, h1,h2, h3
 
-.intro {
-	color:purple;
-	background-repeat:no-repeat;
-	}
+{top:60%;
+	color:red;
+	font-family:Times;
+	max-width:480px;
+	font-size:20px;
+	top:80%; /*
+}
 
-.intro p,
-.intro h1,
-.intro h2,
-.intro h3{
-	top:-80%;
-	color:purple;
-	font-family:garamond;
+
+.summary p,h1, h2, h3
+{top:60%;
+	color:red;
+	font-family:Times;
 	max-width:480px;
 	font-size:20px;
 	
-}
+	}
 
 .supporting
 .explanation{
@@ -48,8 +50,8 @@
 	position:relative;
 	top:50%;
 	bottom:50%;
-	left:15%;
-	color:purple;
+	left:5%;
+	color:red;
 	font-family:Times;
 	max-width:480px;
 	font-size:20px;
@@ -72,14 +74,16 @@
 	position:relative;
 	left:43%;
 	top:30%;
-	color:purple;
+	color:red;
 	font-family:Times;
-	max-width:480px;
+	width:480px;
+	height:200px;
 	font-size:20px;
 	text-align:center;
+	overflow:auto;
 	}
 
-.requirements,
+
 .benefits
 {
 	width:1700px;
@@ -91,19 +95,34 @@
 
 .requirements p,
 .requirements h1,
+{
+ 	position:relative;
+	color:red;
+	font-family:Times;
+	width:480px;
+	height:480px;
+	font-size:25px;
+	overflow:auto;
+	
+}
 .benefits p,
-.benefits p
+.benefits h1
 
-{   position:relative;
+{   
+	width:1700px;
+	height:200px;
+	background-color:transparent;
+	margin:5%;
+	position:relative;
 	top:50%;
 	bottom:50%;
 	left:15%;
-	color:purple;
+	color:red;
 	font-family:Times;
 	max-width:480px;
-	font-size:20px;
+	max-height:480px;
+	font-size:25px;
 	overflow:auto;
-	overflow-x:visible;
 }
 
 
@@ -133,4 +152,4 @@
 		width:35%;
 		;
 	}
-
+*/
