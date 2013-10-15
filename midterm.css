@@ -4,26 +4,36 @@
 	background-image:url("test.jpg");
 	}
 
-.intro {
+.intro{
 	
-	background-repeat:no-repeat;
-	background-image:url('b1.png');
+	padding:25px;
+	background-color:transparent;
 	text-align:center;
-	height:750px;
-	width:1000px;
-	margin-left:5%;
+	height:400px;
+	width:400px;
+	margin-left:25%;
+	bottom:50%;
+	overflow-x:auto;
+	
 	
 
 }
-.intro p, h1,h2, h3,
-.summary p,h1, h2, h3
+.intro p, 
+.intro h1,
+.intro h2, 
+.intro h3,
+.summary p,
+.summary h1, 
+.summary h2,
+.summary h3
 {
-	color:red;
-	font-family:Times;
+	color:yellow;
+	font-family:Lucida Console;
 	max-width:480px;
 	font-size:20px;
 	bottom:50%;
-	margin-left:20%;
+	link
+
 	}
 
 
@@ -62,15 +72,14 @@
 	}
 
 .participation p,
-.participation h1{
+.participation h3{
 	
 	position:relative;
-	left:43%;
-	top:30%;
+	top:25%;
+	left:48%;
 	color:red;
 	font-family:Times;
 	width:480px;
-	height:200px;
 	font-size:20px;
 	text-align:center;
 	overflow:auto;
@@ -86,67 +95,68 @@
 	background-repeat:no-repeat;
 	}
 
-.requirements p,
-.requirements h1,
-{
- 	position:relative;
+.benefits p,
+.benefits h3
+{   
+	position:relative;
+	width:480px;
+	top:50%;
+	margin-left:15%;
 	color:red;
 	font-family:Times;
-	width:480px;
-	height:480px;
-	font-size:25px;
-	overflow:auto;
+	font-size:20px;
 	
 }
-.benefits p,
-.benefits h1
-
-{   
-	width:1700px;
-	height:200px;
-	background-color:transparent;
+.requirements
+    {
+    width:1000px;
+	height:750px;
+	background-image:url("b5.png");
 	margin:5%;
-	position:relative;
-	top:50%;
-	bottom:50%;
+	background-repeat:no-repeat;
+	}
+
+.requirements h3,
+.requirements p
+{
+ 	position:relative;
+	top:5%;
+	width:480px;
 	left:15%;
 	color:red;
 	font-family:Times;
-	max-width:480px;
-	max-height:480px;
-	font-size:25px;
-	overflow:auto;
-}
+	 font-size:20px;
+	}
+
 
 {
 @media all and (min-width:1200px)}
 {@media all and (max-width:1200px0}
 
-
-.sidebar {
-	/*background-color:green;*/
-}
+.page-wrapper{
+  
+  	padding:30px;
+  	}
 
 .sidebar .wrapper div {
-	/*border: 5px dashed blue;*/
+	width:35%;
+	margin-left:65%;
+	}
 	
-	
-}
-
-  
+	.intro,
+	.summary
+  {width:60%;
+  }
   .page-wrapper{
   
   	padding:30px
   	}
 	
-	.intro,
-	.supporting {
-		
-	}
 
 	
 .sidebar {
-		width:35%;
-		;
+		background-image:url('key.jpg');
+		width:700px;
+		height:303px;
 	}
 
